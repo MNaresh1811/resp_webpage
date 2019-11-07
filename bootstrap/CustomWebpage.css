@@ -1,0 +1,25 @@
+html,
+body,
+header,
+#image{
+    height: 100%;
+}
+
+#image {
+    background: url("http://www.thesupercarblog.com/wp-content/uploads/2015/03/Bugatti-Veyron-vs-Koenigsegg-Agera-R.jpg")no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#button{
+	cursor: pointer;
+}
+
+.top-nav-collapse {
+  background-color: #24355C;
+}
+
+
+

@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Material Design Bootstrap</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"><!--responsive-->
+	<!-- Font Awesome -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
+	<!-- Bootstrap core CSS -->
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.2.1/css/bootstrap.min.css" rel="stylesheet">
+	<!-- Material Design Bootstrap -->
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.7.1/css/mdb.min.css" rel="stylesheet">
+
+	<link rel="stylesheet" href="CustomWebpage.css"><!--refrence css file-->
+
+</head>
+<body>
+	<!--Navbar-->
+	<nav class="navbar navbar-expand-lg navbar-dark fixed-top scrolling-navbar">
+
+	  <!-- Collapse button for navbar -->
+	  <button class="navbar-toggler"  data-toggle="collapse" data-target="#collapsethese"> 
+	    <span class="navbar-toggler-icon"></span>
+	  </button>
+
+	  <!-- Collapsible content -->
+	  <div class="collapse navbar-collapse" id="collapsethese">
+
+	    <!-- Links -->
+			<ul class="navbar-nav mr-auto">
+			    <li class="nav-item">
+			        <a class="nav-link" href="#image">Home</a>
+			    </li>
+			    <li class="nav-item">
+			        <a class="nav-link" href="#amazing-features">Features</a>
+			    </li>
+			    <li class="nav-item">
+			        <a class="nav-link" href="#videos">Videos</a>
+			    </li>
+			    <li class="nav-item">
+			        <a class="nav-link" href="#contact">Contact</a>
+			    </li>
+			</ul>
+			<!-- Links -->
+
+	    <form class="form-inline">
+	      <div class="md-form my-0">
+	        <input class="form-control mr-sm-2" type="text" placeholder="Search">
+	        <button onclick="spinner(this);window.location.href='https://www.google.com'" class="btn btn-outline-white btn-sm my-0 ml-sm-2" type="submit" value="Next" ><i class="fas fa-search mt-1 fa-2x"></i></button>
+
+	        	<script>
+			    	function spinner(thisob){
+			    		thisob.disabled = true;
+			    		thisob.innerHTML='<i class="fa fa-spinner fa-spin"></i> Loading';
+			    	}
+			    </script><!--added spinner button in above form-->
+
+	      </div>
+	    </form>
+	  </div>
+	  <!-- end Collapsible content -->
+
+	</nav>
+	<!--end Navbar-->
+
+	<!--bg image-->
+	<div id="image" class="view">
+
+	  <!--Mask-->
+		<div id="image" class="view">
+
+		    <div class="mask rgba-black-strong">
+
+		        <div class="container-fluid d-flex align-items-center justify-content-center h-100">
+
+		            <div class="row d-flex justify-content-center text-center">
+
+		                <div class="col-md">
+
+		                    <!-- Heading -->
+		                    <h2 class="display-4 font-weight-bold white-text">Experience Driving the Best Cars</h2>
+
+		                    <!-- Divider -->
+		                    <hr class="hr-light">
+
+		                    <!-- Description -->
+		                    <h4 class="white-text my-4">Scroll Down to Explore More</h4>
+
+		                </div>
+
+		            </div>
+
+		        </div>
+
+		    </div>
+
+		</div>
+		<!--/.Mask-->
+
+	</div>
+	<!--end bg image-->	
+
+	<!--some text stuff-->
+
+	<main class="mt-5">
+
+    	<div class="container">
+
+    		<hr style="height:1px;border:none;color:#333;background-color:#333;" />
+
+			<!--Description Section-->
+			<section id="amazing-features" class="text-center">
+
+			  <!-- Heading -->
+			   <h2 class="mb-5 font-weight-bold">Amazing Features</h2> 
+			  <!--Grid row-->
+			  <div class="row">
+
+			      <!--Grid column-->
+			      <div class="col-md-4 mb-5">
+			      	<div class="col-spaced content-wrapper" style="border: 1px solid #000">
+			          <h4 class="my-4 font-weight-bold"  >Breathtaking Cars</h4>
+			          <p class="grey-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit maiores nam, aperiam minima
+			              assumenda deleniti hic. Morbi tincidunt arcu ut malesuada ornare. Sed eu ante tincidunt, rutrum magna in, dictum .</p>
+			          </div>
+			      </div>
+			      <!--Grid column-->
+
+			      <!--Grid column-->
+			      <div class="col-md-4 mb-1">
+			      	<div class="col-spaced content-wrapper" style="border: 1px solid #000">
+			          <h4 class="my-4 font-weight-bold ">Top Brands</h4>
+			          <p class="grey-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit maiores nam, aperiam minima
+			              assumenda deleniti hic. Morbi tincidunt arcu ut malesuada ornare. Sed eu ante tincidunt, rutrum magna in, dictum .</p>
+			          </div>
+			      </div>
+			      <!--Grid column-->
+
+			      <!--Grid column-->
+			      <div class="col-md-4 mb-1">
+			      	<div class="content-wrapper" style="border:1px solid #000">
+			          <h4 class="my-4 font-weight-bold ">Best Service</h4>
+			          <p class="grey-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit maiores nam, aperiam minima
+			              assumenda deleniti hic. Morbi tincidunt arcu ut malesuada ornare. Sed eu ante tincidunt, rutrum magna in, dictum 	.</p>
+			          </div>
+			      </div>
+			      <!--Grid column-->
+
+			  </div>
+			  <!--Grid row-->
+
+			</section>
+			<!--Description Section-->
+			<!-- <hr style="height:1px;border:none;color:#333;background-color:#333; margin-top: 30px;" /> -->
+		</div>
+	</main>
+	<!--end of description text-->
+
+	<!--cards-->
+
+	<div class="container" style="background-image: url('https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/3xEGOGX/blue-cubes-rotating-in-perspective-blue-translucent-cubes-rotating-in-space-on-black-background-fantasy-horizon-abstract-illustration-animation-30fps-hd1080-seamless-loop_nygec6zs__F0000.png') ;background-size: cover">
+
+		<section id="videos" class="text-center">
+
+		<hr style="height:1px;border:none;color:#333;background-color:#333;" />
+
+
+		<h2 class="mb-5 font-weight-bold white-text" style="margin-top: 50px;">Awesome video Links</h2> 
+
+		<div class="row">
+			<div class="col-md-4">
+
+				<!-- Card1 -->
+				<div class="card mb-4">
+
+			  <!-- Card image -->
+			  <div class="view overlay">
+			    <img class="card-img-top" 
+			    src="https://cache.desktopnexus.com/thumbseg/942/942416-bigthumbnail.jpg" alt="Card image cap">
+			      <div class="mask rgba-white-slight"></div>
+			    </a>
+			  </div>
+
+			  <!-- Card content -->
+			  <div class="card-body">
+
+			    <!-- Title -->
+			    <h4 class="card-title">Audi</h4>
+			    <!-- Text -->
+			    <p class="card-text">Praesent dictum ultricies eros lobortis mollis. Sed tellus neque, sodales.</p>
+			    <!-- Button -->
+			    <button type="submit" class="btn btn-primary"  onclick="spinner(this);window.location.href='https://www.audi.com' ">Watch Here</button>
+
+			    <script>
+			    	function spinner(thisob){
+			    		thisob.disabled = true;
+			    		thisob.innerHTML='<i class="fa fa-spinner fa-spin"></i> Loading';
+			    	}
+			    </script>
+
+			  </div>
+
+			</div>
+				<!-- Card 1-->
+			</div>
+
+		<div class="col-md-4">
+
+		<!--Card2-->
+			<div class="card mb-4">
+
+			  <!-- Card image -->
+			  <div class="view overlay">
+			    <img class="card-img-top" src="http://thewowstyle.com/wp-content/uploads/2015/02/bugatti-legend-black-bess-veyron-grand-sport-vitesse_100463224_l.jpg" alt="Card image cap">
+			      <div class="mask rgba-white-slight"></div>
+			    </a>
+			  </div>
+
+			  <!-- Card content -->
+			  <div class="card-body">
+
+			    <!-- Title -->
+			    <h4 class="card-title">Bugatti</h4>
+			    <!-- Text -->
+			    <p class="card-text">Vivamus ac massa sodales nunc tristique sollicitudin. Suspendisse ut tellus.</p>
+			    <!-- Button -->
+			    <button type="submit" class="btn btn-primary"  onclick="spinner(this);window.location.href='https://www.bugatti.com' ">Watch Here</button>
+
+			    <script>
+			    	function spinner(thisob){
+			    		thisob.disabled = true;
+			    		thisob.innerHTML='<i class="fa fa-spinner fa-spin"></i> Loading';
+			    	}
+			    </script>
+
+			  </div>
+
+			</div>
+			<!-- Card2 -->
+		</div>
+
+		<div class="col-md-4">
+
+			<!--card3-->
+			<div class="card mb-4" >
+
+			  <!-- Card image -->
+			  <div class="view overlay">
+			    <img class="card-img-top" src="https://i.pinimg.com/originals/64/5e/3a/645e3a37f2bad1fdc03fd53890e80719.jpg" alt="Card image cap">
+			      <div class="mask rgba-white-slight"></div>
+			    </a>
+			  </div>
+
+			  <!-- Card content -->
+			  <div class="card-body">
+
+			    <!-- Title -->
+			    <h4 class="card-title">Mclaren</h4>
+			    <!-- Text -->
+			    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nec.</p>
+			    <!-- Button -->
+			    <button type="submit" class="btn btn-primary"  onclick="spinner(this);window.location.href='https://www.mclaren.com' ">Watch Here</button>
+
+			    <script>
+			    	function spinner(thisob){
+			    		thisob.disabled = true;
+			    		thisob.innerHTML='<i class="fa fa-spinner fa-spin"></i> Loading';
+			    	}
+			    </script>
+			  </div>
+
+			</div>
+			<!--card3-->
+		</div>
+
+	</div>
+
+
+	</section>
+
+	</div>
+	<!--end cards -->
+
+	<!--contact us-->
+
+	<div class="container" style="border:1px solid #cecece;margin-top: 40px">
+
+		<!--Section: Contact us-->
+		<section class="mb-4" id="contact">
+
+		    <!--Section heading-->
+		    <h2 class="h1-responsive font-weight-bold text-center my-4">Contact us</h2>
+		    <!--Section description-->
+		    <p class="text-center w-responsive mx-auto mb-5">Wish to Ride one of them?? Then go ahead And fill the Form. We will Contact you at the earliest.</p>
+
+		    <hr class="hr-dark">
+
+
+		    <div class="row">
+
+		        <!--Grid column-->
+		        <div class="col-md-9 mb-md-0 mb-5">
+		            <form id="contact-form" name="contact-form">
+
+		                <!--Grid row-->
+		                <div class="row">
+
+		                    <!--Grid column-->
+		                    <div class="col-md-6">
+		                        <div class="md-form mb-0">
+		                            <input type="text" id="name" name="name" class="form-control">
+		                            <label for="name" class="">Your name</label>
+		                        </div>
+		                    </div>
+		                    <!--Grid column-->
+
+		                    <!--Grid column-->
+		                    <div class="col-md-6">
+		                        <div class="md-form mb-0">
+		                            <input type="text" id="email" name="email" class="form-control">
+		                            <label for="email" class="">Your email</label>
+		                        </div>
+		                    </div>
+		                    <!--Grid column-->
+
+		                </div>
+		                <!--Grid row-->
+
+		                <!--Grid row-->
+		                <div class="row">
+		                    <div class="col-md-12">
+		                        <div class="md-form mb-0">
+		                            <input type="text" id="subject" name="subject" class="form-control">
+		                            <label for="subject" class="">Subject</label>
+		                        </div>
+		                    </div>
+		                </div>
+		                <!--Grid row-->
+
+		                <!--Grid row-->
+		                <div class="row">
+
+		                    <!--Grid column-->
+		                    <div class="col-md-12">
+
+		                        <div class="md-form">
+		                            <h6 class="text-muted">Why would you want to visit us?</h6>
+
+										<!-- Group of default radios - option 1 -->
+										<div class="custom-control custom-radio ml-5">
+										  <input type="radio" class="custom-control-input" id="button" name="radio buttons">
+										  <label class="custom-control-label" for="button">Purchase</label>
+										</div>
+
+										<!-- Group of default radios - option 2 -->
+										<div class="custom-control custom-radio ml-5">
+										  <input type="radio" class="custom-control-input" id="button1" name="radio buttons" checked>
+										  <label class="custom-control-label" for="button1">Test Drive</label>
+										</div>
+
+
+		                        </div>
+
+		                    </div>
+		                </div>
+		                <!--Grid row-->
+
+
+		            <div class="text-center text-md-left" >
+		                <a class="btn btn-primary" style="margin-top: 12px;" href="#image" type="submit">Send</a>
+		            </div>
+		            <div class="status"></div>
+
+		        </form>
+
+
+		        </div>
+		        <!--Grid column-->
+
+		        <!--Grid column-->
+		        <div class="col-md-3 text-center">
+		            <ul class="list-unstyled mb-0">
+		                <li><i class="fas fa-map-marker-alt fa-2x"></i>
+		                    <p>Bangalore , India</p>
+		                </li>
+
+		                <li><i class="fas fa-phone mt-4 fa-2x"></i>
+		                    <p>+ 91 567 567 08</p>
+		                </li>
+
+		                <li><i class="fas fa-envelope mt-4 fa-2x"></i>
+		                    <p>super_car_dealers@gmail.com</p>
+		                </li>
+		            </ul>
+		        </div>
+		        <!--Grid column-->
+
+		    </div>
+
+		</section>
+		<!--Section: Contact us-->
+
+	</div>
+
+	<!--contact us ends-->
+
+	<!--Footer-->
+<footer class="page-footer font-small">
+
+    <!-- Social buttons -->
+    <div class="unique-color-dark mt-3">
+
+        <div class="container">
+            <!--Grid row-->
+            <div class="row py-4 d-flex align-items-center">
+
+                <!--Grid column-->
+                <div class="col-md-6 col-lg-5 text-center text-md-left mb-4 mb-md-0">
+                    <h6 class="mb-0 white-text">Get connected with us on social networks!</h6>
+                </div>
+                <!--Grid column-->
+
+                <!--Grid column-->
+                <div class="col-md-6 col-lg-7 text-center text-md-right">
+                    <!--Facebook-->
+                    <a class="facebook">
+                        <i class="fab fa-facebook-f white-text mr-4"> </i>
+                    </a>
+                    <!--Twitter-->
+                    <a class="twitter">
+                        <i class="fab fa-twitter white-text mr-4"> </i>
+                    </a>
+                    <!--Google +-->
+                    <a class="googleplus">
+                        <i class="fab fa-google-plus-g white-text mr-4"> </i>
+                    </a>
+                    <!--Linkedin-->
+                    <a class="linkdn">
+                        <i class="fab fa-linkedin-in white-text mr-4"> </i>
+                    </a>
+                    <!--Instagram-->
+                    <a class="insta">
+                        <i class="fab fa-instagram white-text mr-lg-4"> </i>
+                    </a>
+                </div>
+                <!--Grid column-->
+
+            </div>
+            <!--Grid row-->
+        </div>
+    </div>
+    <!-- Social buttons -->
+
+    </footer>
+
+    <!--end footer-->
+
+	
+
+
+	<!-- JQuery -->
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<!-- Bootstrap tooltips -->
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
+	<!-- Bootstrap core JavaScript -->
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.2.1/js/bootstrap.min.js"></script>
+	<!-- MDB core JavaScript -->
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.7.1/js/mdb.min.js"></script>
+
+</body>
+</html>
+
